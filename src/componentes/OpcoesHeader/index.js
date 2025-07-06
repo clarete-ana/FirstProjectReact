@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 const Opcao = styled.li`
   display: flex;
-`
-const Opcoes = styled.ul`
-  display: flex;
   font-size: 16px;
   justify-content: center;
   align-items: center;
@@ -13,6 +10,9 @@ const Opcoes = styled.ul`
   height: 100%;
   padding: 0 5px;
   cursor: pointer;
+`
+const Opcoes = styled.ul`
+  display : flex;
 `
 const textoOpcoes = ['CATEGORIAS' , 'FAVORITOS' , 'MINHA ESTANTE'];
 
